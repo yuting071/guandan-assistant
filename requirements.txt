@@ -1,0 +1,22 @@
+# 掼蛋助手 Python依赖
+
+# 核心框架
+kivy>=2.1.0
+
+# Android支持
+# python-for-android (通过buildozer安装)
+
+# 图像处理
+Pillow>=9.0.0
+numpy>=1.21.0
+
+# 可选：深度学习识别（高级功能）
+# tensorflow>=2.8.0
+# tflite-runtime>=2.8.0
+
+# 桌面开发调试
+# pygments>=2.10.0
+
+# 构建工具
+# buildozer>=1.4.0
+# python-for-android>=0.70.0
