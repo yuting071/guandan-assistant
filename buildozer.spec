@@ -13,7 +13,7 @@ package.domain = com.guandan
 version = 1.0.0
 
 # Python依赖
-requirements = python3,kivy
+requirements = python3,kivy,pillow,numpy
 
 # 源码目录
 source.dir = .
@@ -77,4 +77,4 @@ log_level = 2
 mode = release
 
 # 禁用外部zlib
-android.ndk_mode = system
+android.ndk_m
