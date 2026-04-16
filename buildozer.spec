@@ -13,7 +13,7 @@ package.domain = com.guandan
 version = 1.0.0
 
 # Python依赖
-requirements = python3,kivy==2.3.0,pyjnius,pillow
+requirements = python3,kivy,pillow
 
 # 源码目录
 source.dir = .
