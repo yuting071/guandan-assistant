@@ -13,6 +13,9 @@ if os.environ.get('ANDROID_ARGUMENT', None):
     Config.set('graphics', 'fullscreen', '0')
     Config.set('input', 'mouse', 'mouse')
 
+# 设置中文字体
+Config.set('kivy', 'default_font', ['DroidSansFallback', 'NotoSansCJK', 'Roboto'])
+
 from kivy.app import App
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.core.window import Window
