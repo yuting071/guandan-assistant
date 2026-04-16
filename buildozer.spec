@@ -68,7 +68,7 @@ android.theme = android:theme/Theme.DeviceDefault.NoActionBar
 p4a.bootstrap = sdl2
 
 # SDL2相关
-p4a SDL2_DEPSITIES = 2
+p4a.SDL2_DEPSITIES = 2
 
 # ==================== 日志配置 ====================
 log_level = 2
