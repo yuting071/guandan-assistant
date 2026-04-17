@@ -28,8 +28,8 @@ source.exclude_patterns = license,images/*/*.jpg
 android.minapi = 21
 android.api = 29
 
-# 支持的Android架构
-android.archs = arm64-v8a
+# 支持的Android架构（arm64和arm32）
+android.archs = arm64-v8a, armeabi-v7a
 
 # 屏幕方向
 orientation = portrait
